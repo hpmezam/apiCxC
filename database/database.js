@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
 
-export const sequelize = new Sequelize('DBCuentasCobrar', 'postgres', '08b12o10H', {
+export const sequelize = new Sequelize('DBCuentasCobrar', 'postgres', '12345678', {
     host: 'localhost',
     dialect: 'postgres'
 })
@@ -22,6 +22,6 @@ export const sequelize = new Sequelize('DBCuentasCobrar', 'postgres', '08b12o10H
 //   host: "serhpmezam.database.windows.net",
 //   database: "DBCuentasCobrar",
 //   username: "adminsql",
-//   password: "08b12o10H",
+//   password: "12345678",
 // });
 // Example for sql
